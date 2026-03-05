@@ -1,143 +1,212 @@
-<section id="articulos" style="padding:80px 20px;background:#f9f7f6;">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Edición Especial – Encuentro Mujeres Tributaristas IFA WIN</title>
 
-  <div style="max-width:1100px;margin:auto;text-align:center;">
+  <style>
+    body{margin:0;font-family:Arial, sans-serif;background:#f6f3f1;color:#222;line-height:1.7;}
+    a{color:inherit}
+    .wrap{max-width:1100px;margin:0 auto;padding:0 20px;}
+    .center{text-align:center;}
+    .muted{color:#555;}
+    .section{padding:80px 0;}
+    .section.alt{background:#f9f7f6;}
+    h1,h2,h3{font-family:Georgia,serif;margin:0;}
+    h1{font-size:40px;}
+    h2{font-size:32px;}
+    h3{font-size:22px;}
+    .intro{max-width:980px;margin:0 auto;font-size:16px;line-height:1.9;}
+    .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;text-align:left;}
+    .card{background:#fff;padding:32px;border-radius:10px;box-shadow:0 6px 25px rgba(0,0,0,.08);}
+    .btn{
+      display:inline-block;margin-top:18px;padding:10px 18px;
+      background:#1f3c5c;color:#fff;text-decoration:none;border-radius:6px;
+    }
+    .note{max-width:980px;margin:36px auto 0;font-size:13px;color:#777;}
+    details.cardlike{
+      background:#fff;border-radius:10px;box-shadow:0 6px 25px rgba(0,0,0,.08);
+      padding:18px 22px;
+    }
+    summary{
+      cursor:pointer;
+      font-family:Georgia,serif;
+      font-size:26px;
+      outline:none;
+      list-style:none;
+    }
+    summary::-webkit-details-marker{display:none;}
+    .imgbox{margin-top:18px;text-align:center;}
+    .imgbox img{
+      width:100%;
+      max-width:900px;
+      display:block;
+      margin:0 auto;
+      border-radius:10px;
+    }
+    .repgrid{display:grid;grid-template-columns:1fr 1fr;gap:20px;font-size:18px;}
+    .repgrid ul{list-style:none;padding:0;margin:0;line-height:2;}
 
-    <h1 style="font-family:Georgia,serif;font-size:40px;margin-bottom:20px;">
-      Encuentro Mujeres Tributaristas IFA WIN
-    </h1>
+    footer{padding:40px 0;text-align:center;color:#777;font-size:13px;background:#fff;}
 
-    <p style="margin-bottom:60px;color:#555;">
-      Conmemoración del Día Internacional de la Mujer
-    </p>
+    /* Responsive para móvil */
+    @media (max-width: 900px){
+      .grid3{grid-template-columns:1fr;gap:18px;}
+      summary{font-size:22px;}
+      h1{font-size:34px;}
+      h2{font-size:28px;}
+    }
+  </style>
+</head>
 
-    <h2 style="font-family:Georgia,serif;font-size:32px;margin-bottom:20px;">
-      Artículos
-    </h2>
+<body>
 
-    <p style="max-width:920px;margin:0 auto 60px;color:#555;font-size:16px;line-height:1.9;">
-      En conmemoración del Día Internacional de la Mujer, un grupo de destacadas mujeres tributaristas ha tomado la iniciativa de elaborar una serie de artículos especializados, cada uno desarrollado desde su experiencia y perspectiva profesional, abordando temas alineados con las más recientes vanguardias y tendencias del derecho tributario a nivel internacional. A través de estas contribuciones, se busca promover el intercambio de ideas, aportar al debate académico y profesional, y resaltar el valioso liderazgo y la participación de las mujeres en la evolución del ámbito tributario global.
-    </p>
+  <!-- ARTÍCULOS -->
+  <section id="articulos" class="section alt">
+    <div class="wrap center">
+      <h1>Encuentro Mujeres Tributaristas IFA WIN</h1>
+      <p class="muted" style="margin:18px 0 60px;">
+        Conmemoración del Día Internacional de la Mujer
+      </p>
 
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:40px;text-align:left;">
+      <h2 style="margin-bottom:20px;">Artículos</h2>
 
-      <!-- ARTICULO ANDREA -->
-      <div style="background:white;padding:40px;border-radius:10px;box-shadow:0 6px 25px rgba(0,0,0,0.08);">
+      <p class="intro muted" style="margin-bottom:60px;">
+        En el marco de la conmemoración del Día Internacional de la Mujer, prestigiosas profesionales del ámbito tributario de la República Dominicana han decidido contribuir a la plataforma Women of IFA Network (WIN) mediante artículos académicos que abordan temas de vanguardia a nivel local, así como tendencias internacionales en materia fiscal. Estas contribuciones buscan promover el intercambio de ideas, enriquecer el debate técnico y profesional, y resaltar el valioso liderazgo y la activa participación de las mujeres en esta disciplina.
+      </p>
 
-        <h3 style="font-family:Georgia,serif;font-size:24px;margin:0 0 12px;">
-          Evolución de la Legislación de Precios de Transferencia
-        </h3>
+      <div class="grid3">
 
-        <p style="margin:0;line-height:1.7;">
-          <strong>Andrea Paniagua</strong><br>
-          Socia Líder de Impuestos y Asuntos Legales<br>
-          Pricewaterhouse Interaméricas
-        </p>
+        <!-- 1) GERMANIA -->
+        <div class="card">
+          <h3 style="margin-bottom:12px;">
+            Ojalá se cumpliera con el concepto “El que contamina paga”
+          </h3>
 
-        <a href="articulos/Evolucion legislacion PT - Andrea Paniagua.pdf"
-           target="_blank" rel="noopener"
-           style="display:inline-block;margin-top:20px;padding:10px 22px;background:#1f3c5c;color:white;text-decoration:none;border-radius:5px;">
-          Leer artículo
-        </a>
+          <p style="margin:0;line-height:1.7;">
+            <strong>Germania Montás</strong><br>
+            Socia<br>
+            Boneta Consulting, S.R.L.
+          </p>
+
+          <a class="btn"
+             href="articulos/OJALÁ SE CUMPLIERA CON EL CONCEPTO “EL QUE CONTAMINA PAGA”- Germania Montás.pdf"
+             target="_blank" rel="noopener">
+            Leer artículo
+          </a>
+        </div>
+
+        <!-- 2) ANDREA -->
+        <div class="card">
+          <h3 style="margin-bottom:12px;">
+            Evolución de las legislaciones de precios de transferencia en Latinoamérica
+          </h3>
+
+          <p style="margin:0;line-height:1.7;">
+            <strong>Andrea Paniagua</strong><br>
+            Socia Líder de Impuestos y Asuntos Legales<br>
+            Pricewaterhouse Interaméricas
+          </p>
+
+          <a class="btn"
+             href="articulos/EVOLUCIÓN DE LAS LEGISLACIONES DE PRECIOS DE TRANSFERENCIA EN LATINOAMÉRICA - Andrea Paniagua.pdf"
+             target="_blank" rel="noopener">
+            Leer artículo
+          </a>
+        </div>
+
+        <!-- 3) CHALY -->
+        <div class="card">
+          <h3 style="margin-bottom:12px;">
+            La tributación de la economía digital: más allá del establecimiento permanente
+          </h3>
+
+          <p style="margin:0;line-height:1.7;">
+            <strong>Chaly Cruz</strong><br>
+            Abogada<br>
+            Máster en Derecho Administrativo por la PUCMM<br>
+            Máster Oficial en Hacienda Pública y Administración Tributaria del Instituto Fiscal de España (IEF/UNED)
+          </p>
+
+          <a class="btn"
+             href="articulos/La tributación de la economía digital - más allá del establecimiento permanente - Chaly Cruz.pdf"
+             target="_blank" rel="noopener">
+            Leer artículo
+          </a>
+        </div>
 
       </div>
 
-      <!-- ARTICULO GERMANIA -->
-      <div style="background:white;padding:40px;border-radius:10px;box-shadow:0 6px 25px rgba(0,0,0,0.08);">
+      <p class="note">
+        Nota: Para una mejor lectura en dispositivos móviles, los artículos se abren en una nueva pestaña.
+      </p>
+    </div>
+  </section>
 
-        <h3 style="font-family:Georgia,serif;font-size:24px;margin:0 0 12px;">
-          El que Contamina Paga
-        </h3>
+  <!-- ARTISTA (COLAPSADO) -->
+  <section class="section">
+    <div class="wrap">
+      <details class="cardlike">
+        <summary>Artista de la colección pictórica del restaurante</summary>
+        <div class="imgbox">
+          <img src="assets/img/pintor_elvin_tolentino.jpg" alt="Biografía del artista">
+        </div>
+      </details>
+    </div>
+  </section>
 
-        <p style="margin:0;line-height:1.7;">
-          <strong>Germania Montás</strong><br>
-          Socia<br>
-          Boneta Consulting, S.R.L.
+  <!-- VIOLINISTA (COLAPSADO) -->
+  <section class="section alt">
+    <div class="wrap">
+      <details class="cardlike">
+        <summary>Violinista invitada</summary>
+        <div class="imgbox">
+          <img src="assets/img/violinista_laura_linares.jpg" alt="Biografía de la violinista">
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <!-- REPERTORIO (COLAPSADO) -->
+  <section id="repertorio" class="section">
+    <div class="wrap">
+      <details class="cardlike">
+        <summary>Repertorio musical</summary>
+
+        <p class="muted center" style="margin:14px 0 18px;">
+          Interpretado por la violinista invitada
         </p>
 
-        <a href="articulos/EL QUE CONTAMINA PAGA - Germania Montás.pdf"
-           target="_blank" rel="noopener"
-           style="display:inline-block;margin-top:20px;padding:10px 22px;background:#1f3c5c;color:white;text-decoration:none;border-radius:5px;">
-          Leer artículo
-        </a>
+        <div class="repgrid">
+          <ul>
+            <li>Ordinary</li>
+            <li>Can’t Help Falling in Love</li>
+            <li>Perfect</li>
+            <li>Sky Full of Stars</li>
+            <li>A Thousand Years</li>
+            <li>Flowers</li>
+            <li>Luna de Miel</li>
+            <li>Waltz for Moon</li>
+          </ul>
 
-      </div>
-
+          <ul>
+            <li>All of Me</li>
+            <li>When I Look at You</li>
+            <li>Para Siempre</li>
+            <li>Sabor a Mí</li>
+            <li>Rewrite the Stars</li>
+            <li>Burbujas de Amor</li>
+            <li>Bachata Rosa</li>
+          </ul>
+        </div>
+      </details>
     </div>
+  </section>
 
-    <!-- NOTA OPCIONAL PARA MÓVIL -->
-    <p style="max-width:920px;margin:40px auto 0;color:#777;font-size:13px;line-height:1.6;text-align:center;">
-      Sugerencia: para una mejor lectura en dispositivos móviles, los artículos se abren en una nueva pestaña.
-    </p>
+  <footer>
+    Edición especial – Women of IFA Network
+  </footer>
 
-  </div>
-</section>
-
-<!-- ARTISTA -->
-<section style="padding:80px 20px;background:#ffffff;">
-  <div style="max-width:900px;margin:auto;text-align:center;">
-    <h2 style="font-family:Georgia,serif;font-size:32px;margin:0 0 40px;">
-      Artista de la colección pictórica del restaurante
-    </h2>
-
-    <img src="assets/img/pintor_elvin_tolentino.jpg"
-         alt="Biografía del artista"
-         style="width:100%;max-width:900px;display:block;margin:auto;border-radius:10px;box-shadow:0 6px 25px rgba(0,0,0,0.08);">
-  </div>
-</section>
-
-<!-- VIOLINISTA -->
-<section style="padding:80px 20px;background:#f9f7f6;">
-  <div style="max-width:900px;margin:auto;text-align:center;">
-    <h2 style="font-family:Georgia,serif;font-size:32px;margin:0 0 40px;">
-      Violinista Invitada
-    </h2>
-
-    <img src="assets/img/violinista_laura_linares.jpg"
-         alt="Biografía de la violinista"
-         style="width:100%;max-width:900px;display:block;margin:auto;border-radius:10px;box-shadow:0 6px 25px rgba(0,0,0,0.08);">
-  </div>
-</section>
-
-<!-- REPERTORIO -->
-<section id="repertorio" style="padding:80px 20px;background:#ffffff;">
-  <div style="max-width:1000px;margin:auto;text-align:center;">
-
-    <h2 style="font-family:Georgia,serif;font-size:36px;margin:0 0 18px;">
-      Repertorio Musical
-    </h2>
-
-    <p style="margin:0 0 50px;color:#555;">
-      Interpretado por la violinista invitada
-    </p>
-
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;font-size:18px;text-align:left;">
-
-      <ul style="list-style:none;padding:0;margin:0;line-height:2;">
-        <li>Ordinary</li>
-        <li>Can’t Help Falling in Love</li>
-        <li>Perfect</li>
-        <li>Sky Full of Stars</li>
-        <li>A Thousand Years</li>
-        <li>Flowers</li>
-        <li>Luna de Miel</li>
-        <li>Waltz for Moon</li>
-      </ul>
-
-      <ul style="list-style:none;padding:0;margin:0;line-height:2;">
-        <li>All of Me</li>
-        <li>When I Look at You</li>
-        <li>Para Siempre</li>
-        <li>Sabor a Mí</li>
-        <li>Rewrite the Stars</li>
-        <li>Burbujas de Amor</li>
-        <li>Bachata Rosa</li>
-      </ul>
-
-    </div>
-  </div>
-</section>
-
-<footer style="text-align:center;padding:40px;color:#777;">
-  Edición especial – Women of IFA Network
-</footer>
-</script>
+</body>
+</html>
