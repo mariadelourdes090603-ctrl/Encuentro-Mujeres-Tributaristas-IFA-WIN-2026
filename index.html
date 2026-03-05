@@ -1,139 +1,176 @@
-<!-- ARTÍCULOS + TÍTULO DEL ENCUENTRO -->
+<!-- SECCIÓN PRINCIPAL -->
 <section id="articulos" style="padding:80px 20px;background:#f9f7f6;">
 
-  <div style="max-width:1100px;margin:0 auto;text-align:center;">
+<div style="max-width:1100px;margin:auto;text-align:center;">
 
-    <h1 style="font-family:Georgia,serif;font-size:40px;margin:0 0 14px;">
-      Encuentro Mujeres Tributaristas IFA WIN
-    </h1>
+<h1 style="font-family:Georgia,serif;font-size:40px;margin-bottom:20px;">
+Encuentro Mujeres Tributaristas IFA WIN
+</h1>
 
-    <p style="margin:0 0 55px;color:#555;">
-      Conmemoración del Día Internacional de la Mujer
-    </p>
+<p style="margin-bottom:60px;color:#555;">
+Conmemoración del Día Internacional de la Mujer
+</p>
 
-    <h2 style="font-family:Georgia,serif;font-size:32px;margin:0 0 20px;">
-      Artículos
-    </h2>
+<h2 style="font-family:Georgia,serif;font-size:32px;margin-bottom:20px;">
+Artículos
+</h2>
 
-    <!-- TEXTO INTRODUCTORIO -->
-    <p style="max-width:920px;margin:0 auto 55px;color:#555;font-size:16px;line-height:1.9;">
-      En conmemoración del Día Internacional de la Mujer, un grupo de destacadas mujeres tributaristas ha tomado la iniciativa de elaborar una serie de artículos especializados, cada uno desarrollado desde su experiencia y perspectiva profesional, abordando temas alineados con las más recientes vanguardias y tendencias del derecho tributario a nivel internacional. A través de estas contribuciones, se busca promover el intercambio de ideas, aportar al debate académico y profesional, y resaltar el valioso liderazgo y la participación de las mujeres en la evolución del ámbito tributario global
-    </p>
+<p style="max-width:920px;margin:0 auto 60px;color:#555;font-size:16px;line-height:1.9;">
+En conmemoración del Día Internacional de la Mujer, un grupo de destacadas mujeres tributaristas ha tomado la iniciativa de elaborar una serie de artículos especializados, cada uno desarrollado desde su experiencia y perspectiva profesional, abordando temas alineados con las más recientes vanguardias y tendencias del derecho tributario a nivel internacional. A través de estas contribuciones, se busca promover el intercambio de ideas, aportar al debate académico y profesional, y resaltar el valioso liderazgo y la participación de las mujeres en la evolución del ámbito tributario global.
+</p>
 
-    <!-- GRID DE ARTÍCULOS -->
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:40px;text-align:left;">
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:40px;text-align:left;">
 
-      <!-- ARTÍCULO ANDREA -->
-      <div style="background:white;padding:40px;border-radius:10px;box-shadow:0 6px 25px rgba(0,0,0,0.08);">
-        <h3 style="font-family:Georgia,serif;font-size:24px;margin:0 0 12px;">
-          Evolución de la Legislación de Precios de Transferencia
-        </h3>
+<!-- ARTICULO ANDREA -->
+<div style="background:white;padding:40px;border-radius:10px;box-shadow:0 6px 25px rgba(0,0,0,0.08);">
 
-        <p style="margin:0;color:#333;line-height:1.7;">
-          <strong>Andrea Paniagua</strong><br>
-          Socia Líder de Impuestos y Asuntos Legales<br>
-          Pricewaterhouse Interaméricas
-        </p>
+<h3 style="font-family:Georgia,serif;font-size:24px;">
+Evolución de la Legislación de Precios de Transferencia
+</h3>
 
-        <div style="margin-top:20px;">
-          <a href="articulos/Evolucion legislacion PT - Andrea Paniagua.pdf"
-             target="_blank"
-             style="display:inline-block;padding:10px 22px;background:#1f3c5c;color:white;text-decoration:none;border-radius:5px;">
-            Leer artículo
-          </a>
-        </div>
-      </div>
+<p style="margin-top:15px;">
+<strong>Andrea Paniagua</strong><br>
+Socia Líder de Impuestos y Asuntos Legales<br>
+Pricewaterhouse Interaméricas
+</p>
 
-      <!-- ARTÍCULO GERMANIA -->
-      <div style="background:white;padding:40px;border-radius:10px;box-shadow:0 6px 25px rgba(0,0,0,0.08);">
-        <h3 style="font-family:Georgia,serif;font-size:24px;margin:0 0 12px;">
-          El que Contamina Paga
-        </h3>
+<button onclick="toggleAndrea()" 
+style="margin-top:20px;padding:10px 22px;background:#1f3c5c;color:white;border:none;border-radius:5px;cursor:pointer;">
+Leer artículo
+</button>
 
-        <p style="margin:0;color:#333;line-height:1.7;">
-          <strong>Germania Montás</strong><br>
-          Socia<br>
-          Boneta Consulting, S.R.L.
-        </p>
+<div id="visor-andrea" style="display:none;margin-top:25px;">
+<iframe 
+src="articulos/evolucion_legislacion_pt_andrea_paniagua.pdf"
+style="width:100%;height:750px;border:none;border-radius:8px;">
+</iframe>
+</div>
 
-        <div style="margin-top:20px;">
-         <a href="articulos/el_que_contamina_paga_germania_montas.pdf">
-             target="_blank"
-             style="display:inline-block;padding:10px 22px;background:#1f3c5c;color:white;text-decoration:none;border-radius:5px;">
-            Leer artículo
-          </a>
-        </div>
-      </div>
+</div>
 
-    </div>
 
-  </div>
+<!-- ARTICULO GERMANIA -->
+<div style="background:white;padding:40px;border-radius:10px;box-shadow:0 6px 25px rgba(0,0,0,0.08);">
+
+<h3 style="font-family:Georgia,serif;font-size:24px;">
+El que Contamina Paga
+</h3>
+
+<p style="margin-top:15px;">
+<strong>Germania Montás</strong><br>
+Socia<br>
+Boneta Consulting, S.R.L.
+</p>
+
+<button onclick="toggleGermania()" 
+style="margin-top:20px;padding:10px 22px;background:#1f3c5c;color:white;border:none;border-radius:5px;cursor:pointer;">
+Leer artículo
+</button>
+
+<div id="visor-germania" style="display:none;margin-top:25px;">
+<iframe 
+src="articulos/el_que_contamina_paga_germania_montas.pdf"
+style="width:100%;height:750px;border:none;border-radius:8px;">
+</iframe>
+</div>
+
+</div>
+
+</div>
+</div>
 </section>
+
 
 <!-- ARTISTA -->
-<section style="padding:80px 20px;background:#ffffff;">
-  <div style="max-width:900px;margin:0 auto;text-align:center;">
-    <h2 style="font-family:Georgia,serif;font-size:32px;margin:0 0 40px;">
-      Artista de la colección pictórica del restaurante
-    </h2>
+<section style="padding:80px 20px;">
 
-    <img src="assets/img/pintor_elvin_tolentino.jpg"
-         alt="Biografía del artista"
-         style="width:100%;max-width:900px;display:block;margin:0 auto;border-radius:10px;box-shadow:0 6px 25px rgba(0,0,0,0.08);">
-  </div>
+<div style="max-width:900px;margin:auto;text-align:center;">
+
+<h2 style="font-family:Georgia,serif;font-size:32px;margin-bottom:40px;">
+Artista de la colección pictórica del restaurante
+</h2>
+
+<img src="assets/img/pintor_elvin_tolentino.jpg"
+style="width:100%;max-width:900px;display:block;margin:auto;border-radius:10px;">
+
+</div>
 </section>
+
 
 <!-- VIOLINISTA -->
 <section style="padding:80px 20px;background:#f9f7f6;">
-  <div style="max-width:900px;margin:0 auto;text-align:center;">
-    <h2 style="font-family:Georgia,serif;font-size:32px;margin:0 0 40px;">
-      Violinista Invitada
-    </h2>
 
-    <img src="assets/img/violinista_laura_linares.jpg"
-         alt="Biografía de la violinista"
-         style="width:100%;max-width:900px;display:block;margin:0 auto;border-radius:10px;box-shadow:0 6px 25px rgba(0,0,0,0.08);">
-  </div>
+<div style="max-width:900px;margin:auto;text-align:center;">
+
+<h2 style="font-family:Georgia,serif;font-size:32px;margin-bottom:40px;">
+Violinista Invitada
+</h2>
+
+<img src="assets/img/violinista_laura_linares.jpg"
+style="width:100%;max-width:900px;display:block;margin:auto;border-radius:10px;">
+
+</div>
 </section>
+
 
 <!-- REPERTORIO -->
-<section id="repertorio" style="padding:80px 20px;background:#ffffff;">
-  <div style="max-width:1000px;margin:0 auto;text-align:center;">
+<section id="repertorio" style="padding:80px 20px;">
 
-    <h2 style="font-family:Georgia,serif;font-size:36px;margin:0 0 18px;">
-      Repertorio Musical
-    </h2>
+<div style="max-width:1000px;margin:auto;text-align:center;">
 
-    <p style="margin:0 0 50px;color:#555;">
-      Interpretado por la violinista invitada
-    </p>
+<h2 style="font-family:Georgia,serif;font-size:36px;margin-bottom:40px;">
+Repertorio Musical
+</h2>
 
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;font-size:18px;text-align:left;">
-      <ul style="list-style:none;padding:0;margin:0;line-height:2;">
-        <li>Ordinary</li>
-        <li>Can’t Help Falling in Love</li>
-        <li>Perfect</li>
-        <li>Sky Full of Stars</li>
-        <li>A Thousand Years</li>
-        <li>Flowers</li>
-        <li>Luna de Miel</li>
-        <li>Waltz for Moon</li>
-      </ul>
+<p style="margin-bottom:50px;color:#555;">
+Interpretado por la violinista invitada
+</p>
 
-      <ul style="list-style:none;padding:0;margin:0;line-height:2;">
-        <li>All of Me</li>
-        <li>When I Look at You</li>
-        <li>Para Siempre</li>
-        <li>Sabor a Mí</li>
-        <li>Rewrite the Stars</li>
-        <li>Burbujas de Amor</li>
-        <li>Bachata Rosa</li>
-      </ul>
-    </div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;font-size:18px;text-align:left;">
 
-  </div>
+<ul style="list-style:none;padding:0;line-height:2;">
+<li>Ordinary</li>
+<li>Can’t Help Falling in Love</li>
+<li>Perfect</li>
+<li>Sky Full of Stars</li>
+<li>A Thousand Years</li>
+<li>Flowers</li>
+<li>Luna de Miel</li>
+<li>Waltz for Moon</li>
+</ul>
+
+<ul style="list-style:none;padding:0;line-height:2;">
+<li>All of Me</li>
+<li>When I Look at You</li>
+<li>Para Siempre</li>
+<li>Sabor a Mí</li>
+<li>Rewrite the Stars</li>
+<li>Burbujas de Amor</li>
+<li>Bachata Rosa</li>
+</ul>
+
+</div>
+</div>
 </section>
 
+
 <footer style="text-align:center;padding:40px;color:#777;">
-  Edición especial – Women of IFA Network
+Edición especial – Women of IFA Network
 </footer>
+
+
+<script>
+
+function toggleAndrea(){
+var x=document.getElementById("visor-andrea");
+if(x.style.display==="none"){x.style.display="block";}
+else{x.style.display="none";}
+}
+
+function toggleGermania(){
+var x=document.getElementById("visor-germania");
+if(x.style.display==="none"){x.style.display="block";}
+else{x.style.display="none";}
+}
+
+</script>
